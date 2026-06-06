@@ -1,13 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/api/*.js", "use": "@vercel/node" },
-    { "src": "*.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/api/products", "dest": "/api/products.js" },
-{ "src": "/api/update", "dest": "/api/update.js" },
-    { "src": "/admin", "dest": "/admin.html" },
-    { "src": "/", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/api/products", "destination": "/api/products.js" },
+    { "source": "/api/update", "destination": "/api/update.js" }
   ]
 }
