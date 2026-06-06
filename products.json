@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Earphone TWS Bluetooth 5.0 Anti Air",
+    "oldPrice": 150000,
+    "newPrice": 89000,
+    "link": "https://shope.ee/contoh1",
+    "image": "",
+    "emoji": "🎧",
+    "category": "Elektronik"
+  },
+  {
+    "id": "2",
+    "name": "Tas Selempang Pria Wanita Kulit Sintetis",
+    "oldPrice": 200000,
+    "newPrice": 99000,
+    "link": "https://shope.ee/contoh2",
+    "image": "",
+    "emoji": "👜",
+    "category": "Fashion"
+  },
+  {
+    "id": "3",
+    "name": "Serum Wajah Vitamin C Niacinamide 30ml",
+    "oldPrice": 120000,
+    "newPrice": 65000,
+    "link": "https://shope.ee/contoh3",
+    "image": "",
+    "emoji": "✨",
+    "category": "Kecantikan"
+  }
+]
