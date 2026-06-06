@@ -5,8 +5,8 @@
     { "src": "*.html", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/products", "dest": "/api/api/products.js" },
-    { "src": "/api/update", "dest": "/api/api/update.js" },
+    { "src": "/api/products", "dest": "/api/products.js" },
+{ "src": "/api/update", "dest": "/api/update.js" },
     { "src": "/admin", "dest": "/admin.html" },
     { "src": "/", "dest": "/index.html" }
   ]
