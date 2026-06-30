@@ -377,7 +377,7 @@ function renderAll() {
   const catsEl = document.getElementById('cats');
   catsEl.innerHTML = `<button class="cat ${activeCat==='all'?'on':''}" data-cat="all">🔥 Semua</button>`;
   cats.forEach(c => {
-    const em = CAT_EMOJI[c] || '📦';
+    const em = CAT_EMOJI[c] || '';
     catsEl.innerHTML += `<button class="cat ${activeCat===c?'on':''}" data-cat="${c}">${em} ${c}</button>`;
   });
   catsEl.querySelectorAll('.cat').forEach(b => {
@@ -414,7 +414,7 @@ function renderAll() {
         ${p.image
           ? `<img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.card-emoji').style.display='block'">`
           : ''}
-        <div class="card-emoji" style="${p.image?'display:none':''}">${p.emoji||'📦'}</div>
+        <div class="card-emoji" style="${p.image?'display:none':''}">${p.emoji||''}</div>
         ${d ? `<div class="badge-disc">-${d}%</div>` : ''}
         ${p.category ? `<div class="badge-cat">${p.category}</div>` : ''}
       </div>
